@@ -176,11 +176,8 @@ in Settings → Advanced. Some mouse drivers (for example Logitech Options) send
 
 **Middle-click stopped opening links in new tabs.** That's autoscroll. Turn it off from the menu bar, or use ⌘-click.
 
-## Credits & license
+## License
 
-BC MacScroll is a fork of **[UnnaturalScrollWheels](https://github.com/ther0n/UnnaturalScrollWheels)**
-by **Theron Tjapkes** and contributors, who wrote the original scroll-inversion engine. This fork adds
-middle-click autoscroll and a rebuilt SwiftUI interface, and moves the project to Swift Package Manager.
-Mouse acceleration handling is based on [NoMouseAccel](https://github.com/apsun/NoMouseAccel).
-
-Licensed under the **GNU General Public License v3.0**, the same as the original. See [LICENSE](LICENSE).
+BC MacScroll is free software under the **GNU General Public License v3.0**. See [LICENSE](LICENSE).
+Portions copyright © 2020 Theron Tjapkes; modified in 2026. Mouse acceleration handling is adapted
+from [NoMouseAccel](https://github.com/apsun/NoMouseAccel).

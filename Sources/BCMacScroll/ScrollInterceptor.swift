@@ -2,8 +2,9 @@
 //  ScrollInterceptor.swift
 //  BC MacScroll
 //
-//  Originally written by Theron Tjapkes for UnnaturalScrollWheels (GPL-3.0).
-//  Modified for BC MacScroll: master on/off switch, middle-click autoscroll.
+//  Created by Theron Tjapkes on 7/25/20.
+//  Copyright © 2020 Theron Tjapkes. Licensed under GPL-3.0.
+//  Modified by bcwy99 in 2026: master on/off switch, middle-click autoscroll.
 //
 
 import Foundation

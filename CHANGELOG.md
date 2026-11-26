@@ -1,8 +1,13 @@
 # Changelog
 
+## 2.0.1
+
+### Fixed
+- Autoscroll no longer pulls the mouse pointer back to the marker while scrolling, which made it stutter, stall and fight your mouse.
+
 ## 2.0.0 — BC MacScroll
 
-First release under the new name, forked from UnnaturalScrollWheels 1.4.2.
+First release of BC MacScroll.
 
 ### Added
 - **Middle-click autoscroll**: click the wheel and move the mouse to scroll, or hold and drag. Adjustable speed.

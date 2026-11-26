@@ -12,7 +12,6 @@ enum AppInfo {
         Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "dev"
     }
     static let repoURL = URL(string: "https://github.com/bcwy99/BC-MacScroll")!
-    static let upstreamURL = URL(string: "https://github.com/ther0n/UnnaturalScrollWheels")!
     static var icon: NSImage { NSApp?.applicationIconImage ?? NSImage(named: NSImage.applicationIconName)! }
 }
 
@@ -143,7 +142,7 @@ struct SettingsView: View {
 
     private var footer: some View {
         HStack {
-            Text("Version \(AppInfo.version) · Based on UnnaturalScrollWheels")
+            Text("Version \(AppInfo.version)")
                 .font(.caption)
                 .foregroundStyle(.secondary)
             Spacer()

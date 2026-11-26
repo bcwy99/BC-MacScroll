@@ -149,7 +149,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
     @objc private func showAbout() {
         NSApp.activate(ignoringOtherApps: true)
         let credits = NSAttributedString(
-            string: "Middle-click autoscroll and a redesigned interface, built on UnnaturalScrollWheels by Theron Tjapkes and contributors.\n\nFree software under the GNU GPL v3.",
+            string: "Free software under the GNU General Public License v3. Provided without any warranty.",
             attributes: [.font: NSFont.systemFont(ofSize: 11), .foregroundColor: NSColor.secondaryLabelColor])
         NSApp.orderFrontStandardAboutPanel(options: [
             .applicationName: AppInfo.name,

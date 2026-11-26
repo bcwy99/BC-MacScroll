@@ -149,8 +149,10 @@ final class Autoscroller {
         guard let scroll = CGEvent(scrollWheelEvent2Source: nil, units: .pixel, wheelCount: 2,
                                    wheel1: Int32(-iy), wheel2: Int32(-ix), wheel3: 0) else { return }
         scroll.setIntegerValueField(.eventSourceUserData, value: Autoscroller.syntheticMarker)
-        scroll.location = origin   // keep scrolling the view that was clicked
-        scroll.post(tap: .cghidEventTap)
+        // Post at the session level and leave the location alone: posting at the
+        // HID level with a location warps the real cursor back to that point,
+        // which pinned the pointer to the anchor and made scrolling stutter.
+        scroll.post(tap: .cgSessionEventTap)
     }
 
     /// Pixels to scroll per frame for a given pointer offset.

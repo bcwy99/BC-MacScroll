@@ -29,7 +29,7 @@
 	<key>LSUIElement</key>
 	<true/>
 	<key>NSHumanReadableCopyright</key>
-	<string>BC MacScroll, based on UnnaturalScrollWheels by Theron Tjapkes and contributors. GPL-3.0.</string>
+	<string>Copyright © 2026 bcwy99. Portions © 2020 Theron Tjapkes.</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 	<key>NSSupportsAutomaticTermination</key>
